@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(1, 1, 39);
+}
+.container{
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.heading{
+    font-size: 40px;
+}
+.block{
+    display: block;
+    margin-bottom:10px;
+}
+.form-control{
+    display: block;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 500px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding-left: 8px;
+}
+.form-control::placeholder{
+    font-size: 15px;
+}
+.add-button{
+    padding: 4px 10px ;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    width: 85px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+.data-list{
+    color: white;
+    font-family: sans-serif;
+    display: grid;
+    align-items: center;
+    width: 512px;
+    margin-left: 455px;
+    /* border-radius: 10px; */
+    height: 30px;
+}
+th,table{
+    border: 1px solid green;
+    border-spacing: 0;
+}
+
